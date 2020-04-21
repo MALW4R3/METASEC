@@ -21,7 +21,7 @@ time.sleep(3)
 os.system ("clear")
 os.system ("figlet PAYLOAD")
 print
-print " PLEASE INSTALL METASPLOIT "
+print " BY : DEFALT "
 print
 la = raw_input ("android/python/php/windows : ")
 ip = raw_input ("IP : ")
