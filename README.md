@@ -17,5 +17,6 @@ git clone https://github.com/malw4r3/METASEC
 
 cd METASEC
 
-python2 metasec.py
+sh set.sh
 
+metasec
