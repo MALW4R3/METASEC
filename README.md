@@ -17,6 +17,6 @@ git clone https://github.com/malw4r3/METASEC
 
 cd METASEC
 
-sh set.sh
+sh setup.sh
 
 metasec
