@@ -15,5 +15,4 @@ cd bin
 chmod +x *
 cd /$HOME/METASEC
 clear
-cat g.txt
-
+cat g.txt | lolcat
