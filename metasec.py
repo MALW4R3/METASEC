@@ -16,7 +16,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
-os.system ("figlet -f slant METASEC")
+os.system ("figlet -f slant METASEC | lolcat -a")
 time.sleep(3)
 os.system ("clear")
 os.system ("figlet PAYLOAD")
