@@ -2,6 +2,9 @@
 pkg install figlet
 pkg install ruby
 gem install lolcat
+unzip ngrok.zip
+mv ngrok /$HOME
+rm -rf ngrok.zip
 clear
 cat l.txt | lolcat
 curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
