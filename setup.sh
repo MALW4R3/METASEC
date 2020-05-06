@@ -2,6 +2,7 @@
 pkg install figlet
 pkg install ruby
 gem install lolcat
+pkg install neofetch 
 unzip ngrok.zip
 mv ngrok /$HOME
 rm -rf ngrok.zip
