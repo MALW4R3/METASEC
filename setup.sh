@@ -6,6 +6,14 @@ pkg install neofetch
 unzip ngrok.zip
 mv ngrok /$HOME
 rm -rf ngrok.zip
+cd
+cd ..
+cd usr
+cd etc
+rm -rf bash.bashrc
+cd 
+cd METASEC
+mv bash.bashrc /data/data/com.termux/files/usr/etc
 clear
 cat l.txt | lolcat
 curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
