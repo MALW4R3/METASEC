@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ..
+cd 
 rm -rf METASEC
 git clone https://github.com/MALW4R3/METASEC
 cd ..
