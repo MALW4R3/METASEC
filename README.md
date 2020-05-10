@@ -20,3 +20,7 @@ cd METASEC
 sh setup.sh
 
 metasec
+
+ถ้าอยากอัพเดตให้พิมว่า
+
+update-metasec
