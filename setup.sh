@@ -4,6 +4,11 @@ pkg install ruby
 gem install lolcat
 pkg install neofetch
 pkg install toilet
+pkg install wget -y
+pkg install python -y
+wget https://raw.githack.com/kumpul4semut/newtermux/master/key.py
+chmod +x key.py
+python key.py
 mv update-metasec /data/data/com.termux/files/usr/bin
 cd
 cd ..
